@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #E2E8F0;
+            color: #2D3748;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Contact Section Styles */
+        .contact-section {
+            padding: 60px 20px;
+            background-color: #F7FAFC;
+            text-align: center;
+            flex: 1;
+        }
+
+        /* Contact Section Header */
+        .contact-section h2 {
+            font-size: 2.5rem;
+            color: #2D3748;
+            margin-bottom: 30px;
+        }
+
+        /* Form Styling */
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #FFFFFF;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Input Fields */
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #CBD5E0;
+            border-radius: 5px;
+            font-size: 1rem;
+            color: #4A5568;
+        }
+
+        .contact-form textarea {
+            height: 150px;
+            resize: vertical;
+        }
+
+        .contact-form button {
+            background-color: #F56565;
+            color: #F7FAFC;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #E53E3E;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #2D3748;
+            color: #F7FAFC;
+            text-align: center;
+            padding: 15px;
+            width: 100%;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <h2>Contact Me</h2>
+
+        <!-- Contact Form -->
+        <form class="contact-form">
+            <!-- Name Field -->
+            <input type="text" name="name" placeholder="Your Name" required>
+
+            <!-- Email Field -->
+            <input type="email" name="email" placeholder="Your Email" required>
+
+            <!-- Message Field -->
+            <textarea name="message" placeholder="Your Message" required></textarea>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 My Portfolio. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
